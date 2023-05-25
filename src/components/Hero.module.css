@@ -1,0 +1,131 @@
+.Hero {
+  background-image: url('https://i.pinimg.com/originals/26/ed/fe/26edfe7476f61c0afa0ad92574065225.gif');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  margin: 5%;
+  text-align: center;
+  border-radius: 12px;
+  width: 150vh;
+  height: 80vh;
+  box-shadow: 5px 5px 7px rgb(119, 92, 118);
+  color: #03031f;
+  background-color: rgba(223, 209, 226, 0.795);
+}
+
+.Navbar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul{
+  display: flex;
+  margin-right: 200px;
+}
+
+li{
+  margin-left: 40px;
+  list-style: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.Name{
+  margin-left: 100px;
+  width: 100px;
+}
+
+.Container{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 15%;
+}
+
+h1{
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.description{
+  width: 400px;
+  text-align: justify;
+  margin-top: 20px;
+}
+
+/* a:hover{
+  zoom: 2.5;
+} */
+
+.Button{
+  margin-top: 30px;
+  background: linear-gradient(to right, rgb(112, 7, 89), rgb(185, 73, 219));
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 20px;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.Button:hover{
+  transform: translateY(-5px);
+}
+
+.icon:hover{
+  transform: translateY(-15px);
+  transition: all 0.20s;
+}
+
+.div{
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.ImagenProfile{
+  width: 220px;
+  margin-left: 70px;
+  border: 8px solid rgb(134, 55, 108);
+}
+
+.Redes{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 38%;
+  font-size: 30px;
+  width: 120px;
+  color: rgb(112, 7, 89);
+}
+
+a{
+  margin-top: 50px;
+}
+
+span{
+  margin-left: 13px;
+}
+
+.languages{
+  position: absolute;
+  top: 80%;
+  left: 44%;
+  display: flex;
+  flex-direction: row;
+  color: rgb(112, 7, 89);
+  font-size: 30px;
+  border-radius: 20px;
+}

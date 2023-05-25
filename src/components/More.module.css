@@ -1,0 +1,45 @@
+.More {
+  background-color: rgb(183, 187, 197);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items:center;
+  flex-wrap: nowrap;
+  font-size:medium;
+  color:rgb(25, 30, 68);
+  margin-bottom: 20px;
+  margin-top: 10px;
+  width: 480px;
+  padding: 30px;
+  text-align: center;
+  border-radius: 12px;
+}
+
+.Habilities{
+  background-color: rgb(183, 187, 197);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: nowrap;
+  font-size:medium;
+  color:rgb(25, 30, 68);
+  margin-bottom: 20px;
+  margin-top: 10px;
+  width: 480px;
+  padding: 30px;
+  text-align: center;
+  border-radius: 12px;
+}
+
+.h3{
+  margin-top: 10px;
+  font-size: large;
+  padding: 20px;
+  color:rgb(25, 30, 68);
+  text-align: center
+}
+
+.p{
+  font-weight: bold;
+  font-size: 17px;
+}

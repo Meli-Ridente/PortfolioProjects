@@ -1,0 +1,28 @@
+.Education {
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+  border-radius: 12px;
+  width: 500px;
+  background-color: rgb(183, 187, 197);
+  margin-top: 10px;
+  font-size:medium;
+  width: 480px;
+  padding: 30px;
+  text-align: center;
+  border-radius: 12px;
+  text-justify: justify;
+}
+
+
+.Name{
+  font-weight: bold;
+  font-size: large;
+  padding: 5px;
+}
+
+.Cont{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
