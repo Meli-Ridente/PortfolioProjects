@@ -14,20 +14,17 @@ const Experience = () => {
       <div className={styles.Cont}>
         <div className={styles.Container}>
           <div className={styles.First}>
-            <h1 className={styles.Title1}>PROJECTS</h1>
+            <h1 className={styles.Title1}>MY WORK</h1>
             <div className={styles.Line}></div>
-            <p>Here you can see my personal projects.</p>
           </div>
-          <div className={styles.Experience}>
+          <div className={styles.containerFirst}>
             {experience?.map((item) => {
               return (
                 <div key={JSON.stringify(item)} className={styles.Cards}>
                   <div className={styles.info}>
-                    <h2 className={styles.title}>{item?.name}</h2>
-                    <p className={styles.pclass}>{item?.description}</p>
-                    <button className={styles.Bottons}>MORE</button>
+                    {/* <button className={styles.Bottons}>MORE</button> */}
+                    <img src={item?.img2} className={styles.IMAGEN}></img>
                   </div>
-                  <img src={item?.img} className={styles.IMAGEN}></img>
                 </div>
               );
             })}
