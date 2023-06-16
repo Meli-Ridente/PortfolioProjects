@@ -1,12 +1,21 @@
-import React, { useState } from 'react';
+import React, {useRef} from 'react';
 import PropTypes from 'prop-types';
 import styles from './Experience.module.css';
 import { CV } from '../CV/cv'
 import Header from './Header'
-import { Navigate } from 'react-router-dom';
+import { Carousel } from 'antd';
+import {ShareAltOutlined} from '@ant-design/icons'
 
 const Experience = () => {
-  
+  const contentStyle = {
+    height: '400px',
+    width: '800px',
+    color: '#000',
+    lineHeight: '160px',
+    textAlign: 'center',
+    background: '#364d79'
+  };
+  const carousel = useRef(null);
   const {experience} = CV;
   return ( 
     <>
@@ -17,18 +26,16 @@ const Experience = () => {
             <h1 className={styles.Title1}>MY WORK</h1>
             <div className={styles.Line}></div>
           </div>
-          <div className={styles.containerFirst}>
+          <Carousel autoplay ref={carousel} className={styles.ContCarrousel}>
             {experience?.map((item) => {
               return (
-                <div key={JSON.stringify(item)} className={styles.Cards}>
-                  <div className={styles.info}>
-                    {/* <button className={styles.Bottons}>MORE</button> */}
-                    <img src={item?.img2} className={styles.IMAGEN}></img>
-                  </div>
+                <div key={JSON.stringify(item)} className={styles.Cards}> 
+                  <img src={item?.img2} style={contentStyle} className={styles.IMG}/>
+                  <p className={styles.Visit}><ShareAltOutlined />VISIT WEB</p>
                 </div>
               );
             })}
-          </div>
+          </Carousel>
         </div>
       </div>
     </>
