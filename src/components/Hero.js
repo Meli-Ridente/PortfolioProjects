@@ -9,9 +9,9 @@ const Hero = () => {
 
   
   <div className={styles.Hero}>
-    <div className={styles.card}>
+    <div className={styles.Card}>
       <div className={styles.Navbar}>
-        <img  src='https://pbs.twimg.com/media/FvxPm6tWIAEZf2D?format=png&name=small' alt='name.png' className={styles.Name}/>
+        <img src='https://pbs.twimg.com/media/FvxPm6tWIAEZf2D?format=png&name=small' alt='name.png' className={styles.Name}/>
         <ul>
           <li><Link to='/' className={styles.list}>Home</Link></li>
           <li><Link to='/portfolio' className={styles.list}>Portfolio</Link></li>
