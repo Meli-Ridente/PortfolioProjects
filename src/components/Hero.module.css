@@ -355,6 +355,7 @@ span{
 
 @media (min-width: 2000px){
   .Card{
+    background-color: red;
     padding: 15px;
     justify-content: center;
     width: 40%;
