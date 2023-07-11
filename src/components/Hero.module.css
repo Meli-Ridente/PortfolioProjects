@@ -65,6 +65,7 @@ h1{
 .title{
   margin-top: 20px;
 }
+
 .wd{
   font-size: 15px;
   display: block;
@@ -252,7 +253,6 @@ span{
     margin-top: 10px;
   }
   .languages{
-    
     margin-top: 25px;
   }
 }
@@ -355,7 +355,6 @@ span{
 
 @media (min-width: 2000px){
   .Card{
-    background-color: red;
     padding: 15px;
     justify-content: center;
     width: 40%;
