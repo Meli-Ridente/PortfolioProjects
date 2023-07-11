@@ -5,12 +5,12 @@
   display: flex;
   justify-content: center;
   padding: 140px 100px;
-  height: 100%;
+  height: 90%;
 }
 
 .Container{
   background-color: rgba(223, 209, 226, 0.623);
-  width: 60%;
+  width: 40%;
   border-radius: 12px;
   box-shadow: 5px 5px 7px rgb(119, 92, 118);
   padding: 40px 30px;
@@ -37,6 +37,7 @@
 }
 
 ion-icon{
+  color: rgb(112, 7, 89);
   margin-right: 6px;
   font-weight: bold;
 }
@@ -76,6 +77,7 @@ ion-icon{
 }
 
 .title{
+  color: rgb(112, 7, 89);
   font-size: 17px;
 }
 
@@ -93,9 +95,110 @@ ion-icon{
 
 
 .languages{
+  color: rgb(112, 7, 89);
   display: flex;
   flex-direction: row;
   font-size: 40px;
   justify-content: center;
   border-radius: 20px;
+}
+
+@media (max-width: 600px){
+  .About{
+    padding: 70px;
+  }
+  .Container{
+    padding: 60px;
+    width: 90%;
+    height: 80%;
+  }
+  .infor{
+    font-size: 18px;
+  }
+  .AboutMe{
+    font-size: 17px;
+    text-align: center;
+  }
+  .LangTitle{
+    font-size: 40px;
+    margin-top: 30px;
+  }
+  .Cont{
+    justify-content: center;
+    align-items: center;
+  }
+  .Education{
+    text-align: center;
+    flex-direction: column;
+  }
+  .title{
+    margin-top: 3%;
+    font-size: 23px;
+  }
+  .date, .pclass{
+    font-size: 17px;
+  }
+}
+
+@media (min-width: 760px){
+  .About{
+    padding: 70px;
+  }
+  .Container{
+    padding: 60px;
+    width: 90%;
+    height: 80%;
+  }
+  .infor{
+    font-size: 18px;
+  }
+  .AboutMe{
+    font-size: 17px;
+    text-align: center;
+  }
+  .LangTitle{
+    font-size: 40px;
+    margin-top: 30px;
+  }
+  .Cont{
+    justify-content: center;
+    align-items: center;
+  }
+  .Education{
+    text-align: center;
+    flex-direction: column;
+  }
+  .title{
+    margin-top: 3%;
+    font-size: 23px;
+  }
+  .date, .pclass{
+    font-size: 17px;
+  }
+}
+
+@media (min-width: 2000px){
+  .About{
+  padding: 40px;
+  }
+  .Container{
+    padding: 10px;
+    width: 40%;
+    height: 40%;
+  }
+  .AboutMe{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 15px;
+  }
+  .infor{
+    font-size: 18px;
+  }
+  .title{
+    margin-top: 1%;
+  }
+  .LangTitle{
+    font-size: 40px;
+    margin-top: 30px;
+  }
 }
