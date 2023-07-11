@@ -4,7 +4,7 @@
   width: 100%;
   height: 100vh;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   align-items: center;
 }
 
@@ -13,39 +13,39 @@
   flex-direction: column;
   margin: 5%;
   padding: 2%;
+  align-items: center;
   overflow: hidden;
   text-align: center;
   border-radius: 12px;
-  width: 60%;
-  height: 70%;
   box-shadow: 5px 5px 7px rgb(119, 92, 118);
   color: #03031f;
   background-color: rgba(223, 209, 226, 0.795);
 }
 
+.DivRedes{
+  display: flex;
+  flex-direction: row;
+}
+
 .Navbar{
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
   align-items: center;
-  width: 90%;
-  margin-left: 10px; 
 }
 
 ul{
+  text-align: justify;
   display: flex;
-  /* margin-right: 200px; */
+  padding: 0;
   list-style: none;
 }
 
 li{
-  /* margin-left: 20px; */
   font-size: 18px;
   font-weight: bold;
 }
 
 .Name{
-  /* margin-left: 100px; */
   width: 100px;
 }
 
@@ -65,32 +65,32 @@ h1{
 .title{
   margin-top: 20px;
 }
-
 .wd{
-  border-right: .10em solid #18BDEC;
-  animation: blink 1s steps(1) ;
-  white-space: nowrap;
-  animation: typing 1s steps(38) 1s 1 normal both, blink 1s steps(1) infinite;
+  font-size: 15px;
+  display: block;
+  font-family: monospace;
+  white-space: nowrap; /* los espacios en blanco no rompen la línea */        
+  width: 63%; /* el ancho será el número de caracteres que tiene nuestra línea */
+  animation: escribiendo 3s steps(20);          
+  overflow: hidden;
+  animation: 1s parpadeo-cursor infinite;
 }
-
-@keyframes blink {
-  50% {
-    border-color: transparent;
-  }
-}
-
-@keyframes typing {
+@keyframes escribiendo {
   from {
     width: 0;
   }
-  to {
-    width: 47%;
+}
+
+@keyframes parpadeo-cursor {
+  50% {
+    opacity: 0;
   }
 }
 
 .description{
   width: 80%;
   font-size: 16px;
+  color: grey;
   text-align: justify;
 }
 
@@ -150,10 +150,8 @@ h1{
 .Redes{
   display: flex;
   flex-direction: column;
-  position: absolute;
-  top: 38%;
   font-size: 30px;
-  left: 20%;
+  margin-top: 140px;
   color: rgb(112, 7, 89);
 }
 
@@ -176,26 +174,24 @@ span{
 }
 
 .languages{
-  position: absolute; 
-  top: 80%;
-  left: 40%;
   display: flex;
   flex-direction: row;
+  justify-content: end;
   color: rgb(112, 7, 89);
   font-size: 30px;
-  border-radius: 20px;
+  margin-bottom: 0.5%;
 }
 
 /*  MEDIA QUERYS */
 
 @media (max-width: 600px){
   .Card{
-    width: 80%;
-    height: 90%;
+    width: 90%;
   }
   .Container{
     flex-direction: column-reverse;
-    margin: 0px;
+    align-items: start;
+    margin-left: 10px;
     padding: 0;
   }
   .Navbar{
@@ -209,22 +205,22 @@ span{
   } 
   .list{
     align-items: center;
-    font-size: 15px; 
+    font-size: 13px; 
     margin-left: 0px;
     text-align: justify;
  }
  .ImagenProfile{
     height: 170px;
-    margin-left: 0;
+    width: 140px;
+    margin: 20px 20px;
   }
   .wd{
-    font-size: 14px;
   }
   .div{
     text-align:left;
     width: 100%;
-    margin-top: 10px;
-    align-items: center;
+    margin-top: 5px;
+    align-items: start;
   }
   .title{
     font-size: 20px;
@@ -233,58 +229,62 @@ span{
     font-size: 15px;
     font-weight: normal;
     text-align: justify;
-    /* height: 250px; */
+  }
+  .Name{
+    height: 70px;
+    width: 90px;
   }
   .a{
-    font-size: 40px;
+    font-size: 25px;
   }
   .Redes{
+    margin-top: 0;
     display: flex;
-    font-size: 40px;
-    margin-left: 0;
+    justify-content: center;
+    font-size: 30px;
     flex-direction: column;
   }
   .icon{
-    font-size: 30px;
-  }
-  .languages{
-    position: absolute;
-    top: 80%;
-    left: 12%;
-    top: 87%;
+    font-size: 25px;
   }
   .Button{
-    margin-top: 20px;
+    height: 40px;
+    width: 120px;
+    font-size: 13px;
+    margin-top: 10px;
+  }
+  .languages{
+    
+    margin-top: 25px;
   }
 }
 
 @media (min-width: 760px){
   .Card{
-    height: 75%;
     width: 80%;
   }
   .Navbar{
-    width: auto;
+    width: 90%;
+    justify-content: space-around;
   }
   .Container{
     padding: 0 5% 0 5%;
   }
   .Name{
-    width: 130px;
-  }
-  .title{
-    font-size: 22px;
+    width: 120px;
   }
   .ImagenProfile{
-    width: 250px;
-    margin-left: 30px;
+    width: 200px;
   }
   .div{
-    font-size: 20px;
+    margin-top: 30px;
+    font-size: 15px;
   }
   .description{
     width: auto;
-    font-size: 18px;
+    font-size: 15px;
+    
+    font-weight: 500;
   }
   ul{
     padding: 0;
@@ -302,33 +302,115 @@ span{
     font-size: 30px;
   }
   .Redes{
-    font-size: 40px;
+    font-size: 30px;
+    margin-top: 60px;
+  }
+  .Button{
+    margin-top: 60px;
+    font-size: 15px;
+    width: 120px;
+    height: 40px;
   }
   .languages{
-    top: 77%;
-    left: 35%;
+    margin-top: 30px;
   }
 }
 
-@media (min-width: 1400px){
+@media (min-width: 1000px){
   .Card{
-    width: 60%;
-    height: 80%;
+    justify-content: center;
+    width: 70%;
+  }
+}
+
+@media (min-width: 1300px){
+  .Card{
+    justify-content: center;
+    width: 50%;
+    height: 70%;
   }
   .Container{
-    padding: 0 10% 0 10%;
+    padding: 0 5% 0 5%;
   }
   li{
-    font-size: 23px;
+    font-size: 20px;
   }
   .div{
-    width: 50%;
+    width: 70%;
   }
   .description{
-    width: 70%;
+    width: 80%;
+    font-size: 18px;
   } 
-  .languages{
-    top: 83%;
-    left: 40%;
+  .Redes{
+    font-size: 30px;
+  }
+  .Button{
+    width: 150px;
+    height: 45px;
+    font-size: 18px;
+  }
+  .icon{
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 2000px){
+  .Card{
+    padding: 15px;
+    justify-content: center;
+    width: 40%;
+    height: 50%;
+  }
+  .Navbar{
+    width: 80%;
+  }
+  .Name{
+    width: 130px;
+  }
+  .Container{
+    padding: 0 5% 0 5%;
+  }
+  li{
+    font-size: 20px;
+  }
+  .div{
+    width: 70%;
+  }
+  .description{
+    width: 80%;
+    font-size: 18px;
+  } 
+  .Redes{
+    font-size: 30px;
+  }
+  .Button{
+    width: 150px;
+    height: 45px;
+    font-size: 18px;
+  }
+  .icon{
+    font-size: 30px;
+  }
+  .wd{
+    border-right: .10em solid #18BDEC;
+    animation: blink 1s steps(1) ;
+    white-space: nowrap;
+    animation: typing 1s steps(30) 1s 1 normal both, blink 1s steps(1) infinite;
+  }
+  
+  @keyframes blink {
+    40% {
+      border-color: transparent;
+    }
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 35%;
+    }
   }
 }
