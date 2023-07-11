@@ -274,6 +274,7 @@
   .Experience{
     background-size: cover;
     display: flex;
+    color: red;
     justify-content: center;
   }
   .Cards{
