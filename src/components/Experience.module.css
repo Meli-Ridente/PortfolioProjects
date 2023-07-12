@@ -231,10 +231,10 @@
     background-size: cover;
   }
   .Title1{
-    font-size: 30px;
+    font-size: 25px;
   }
   .Cont{
-    padding-top: 80px;
+    padding-top: 30px;
     width: 80%;
     height: 80%;
   }
@@ -242,19 +242,19 @@
     padding: 15px 15px;
     margin-bottom: 1;
     justify-content: space-around;
-    width: 95%;
+    width: 85%;
   }
   .ContCarrousel{
-    width: 60%;
+    width: 75%;
     overflow: hidden;
-    margin-left: 20%;
+    margin-left: 10%;
    } 
    .Cards{
     display: flex;
     justify-content: center;
    }
   .IMG{
-    height: 500px;
+    height: 300px;
     width: 1000px;
   }
   .Line{
