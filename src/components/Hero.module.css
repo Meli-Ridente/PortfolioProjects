@@ -200,6 +200,27 @@ span{
     width: 90%;
     justify-content: space-between;
   }
+  .wd{
+    border-right: .10em solid #18BDEC;
+    animation: blink 1s steps(1) ;
+    white-space: nowrap;
+    animation: typing 1s steps(20) 1s 1 normal both, blink 1s steps(1) infinite;
+  }
+  
+  @keyframes blink {
+    40% {
+      border-color: transparent;
+    }
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 57%;
+    }
+  }
   ul{
     flex-direction: column;
     margin-right: 0px;
@@ -278,6 +299,27 @@ span{
     margin-top: 30px;
     font-size: 15px;
   }
+  .wd{
+    border-right: .10em solid #18BDEC;
+    animation: blink 1s steps(1) ;
+    white-space: nowrap;
+    animation: typing 1s steps(20) 1s 1 normal both, blink 1s steps(1) infinite;
+  }
+  
+  @keyframes blink {
+    40% {
+      border-color: transparent;
+    }
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 58%;
+    }
+  }
   .description{
     width: auto;
     font-size: 15px;
@@ -319,13 +361,22 @@ span{
     justify-content: center;
     width: 70%;
   }
+  @keyframes typing {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 40%;
+    }
+  }
 }
 
 @media (min-width: 1300px){
   .Card{
+    
     justify-content: center;
     width: 50%;
-    height: 70%;
+    height: 50%;
   }
   .Container{
     padding: 0 5% 0 5%;
@@ -342,6 +393,15 @@ span{
   } 
   .Redes{
     font-size: 30px;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 40%;
+    }
   }
   .Button{
     width: 150px;
@@ -390,25 +450,13 @@ span{
   .icon{
     font-size: 30px;
   }
-  .wd{
-    border-right: .10em solid #18BDEC;
-    animation: blink 1s steps(1) ;
-    white-space: nowrap;
-    animation: typing 1s steps(30) 1s 1 normal both, blink 1s steps(1) infinite;
-  }
-  
-  @keyframes blink {
-    40% {
-      border-color: transparent;
-    }
-  }
   
   @keyframes typing {
     from {
       width: 0%;
     }
     to {
-      width: 35%;
+      width: 22%;
     }
   }
 }

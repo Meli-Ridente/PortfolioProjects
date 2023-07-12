@@ -60,7 +60,7 @@ export const CV = {
       link: ''
     },
     {
-      name: "Confecciones Ana Gomes",
+      name: "Confec. Ana Gomes",
       description: 'Made with React, using an API to create a fake online store, in which you can log in while being stored in localStorage, having a letter for each product, implementing libraries such as antDesign as well as ReactRedux, hooks, useState.',
       img: 'https://pbs.twimg.com/media/Fw-OgrpWcAIe-cU?format=png&name=small',
       img2: 'https://pbs.twimg.com/media/FxUA0RFWIAEjD1Z?format=jpg&name=medium',
@@ -75,6 +75,13 @@ export const CV = {
     },
     {
       name: "Corteingles",
+      description: 'Made with React, as a final project of the Bootcamp that creates an informative page, about flights and cruises that could be done in Spain, some tourist information about these places as well. I implemented libraries, React Redux, useProps, useRef, useState, a JSON document that had all my information.',
+      img: 'https://pbs.twimg.com/media/Fw-NRigWIAAwW7c?format=png&name=small',
+      img2: 'https://pbs.twimg.com/media/FxUHG8FWIAMh7UG?format=jpg&name=large',
+      link: ''
+    },
+    {
+      name: "PokeApi",
       description: 'Made with React, as a final project of the Bootcamp that creates an informative page, about flights and cruises that could be done in Spain, some tourist information about these places as well. I implemented libraries, React Redux, useProps, useRef, useState, a JSON document that had all my information.',
       img: 'https://pbs.twimg.com/media/Fw-NRigWIAAwW7c?format=png&name=small',
       img2: 'https://pbs.twimg.com/media/FxUHG8FWIAMh7UG?format=jpg&name=large',

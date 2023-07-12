@@ -28,8 +28,9 @@
 }
 
 .ContCarrousel{
-  width: 80%;
-  margin-left: 100px;
+  /* display: none;  */
+  /* width: 70%;
+  margin-left: 100px; */
 }
 
 
@@ -49,7 +50,9 @@
 }
 
 .Cards{
-  display: flex;
+  /* display: flex; */
+  /* visibility: hidden; */
+  display: none; 
   /* flex-direction: column; */
   /* align-items: center; */
 }
@@ -98,102 +101,60 @@
   .Experience{
     background-size: cover;
   }
-  .Cont{
-    padding-top: 200px;
-    width: 95%;
-    height: 50%;
-  }
-  .Title1{
-    font-size: 20px;
-  }
-  .Cards{
-    overflow: hidden;
-  }
   .Container{
-    padding: 15px 15px;
-    margin-bottom: 1;
-    width: 80%;
-    height: 70%;
-    justify-content: space-evenly;
-  }
-  .ContCarrousel{
-    width: 99%;
-    overflow: hidden;
-    margin-left: 0px;
-  }
-  .IMG{
-    height: 200px;
-    width: 300px;
-    color: #000;
-  }
-  .Line{
-    width: 5%;
-  }
-  .First{
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-  }
-  .slick-slider{
-    width: 40px;
-  }
-  .containerFirst{
-    display: flex;
-    flex-direction: column;
-  }
-  .Visit{
-    font-size: 12px;
-  }
-}
-
-@media (min-width: 760px){
-  .Experience{
-    background-size: cover;
-  }
-  .Cont{
-    padding-top: 150px;
-    width: 100%;
-    height: 50%;
-  }
-  .First{
-    margin-bottom: 10px;
+    display: none;
   }
   .Title1{
     font-size: 25px;
   }
-  .Container{
-    padding: 20px 15px;
+  .Cont{
+    padding-top: 0;
+    margin: 70px 15px;
+    border-radius: 12px;
+    background-color: rgba(223, 209, 226, 0.623);
+    box-shadow: 5px 5px 7px rgb(119, 92, 118);
+    display: flex;
+    width: 80%;
+    height: 70%;
+    flex-direction: column;
+    text-align: center;
+    justify-content: initial;
     margin-bottom: 1;
-    justify-content: space-evenly;
-    width: 90%;
-  }
-  .ContCarrousel{
-    width: 100%;
-    overflow: hidden;
-    margin-left: 0px;
-  }
-  .IMG{
-    height: 350px;
-    width: 700px;
-    color: #000;
   }
   .Line{
-    width: 6%;
+    width: 30%;
   }
-  .First{
-    overflow: hidden;
+  .Min600{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
   }
-  .slick-slider{
-    width: 40px;
-  }
-  .containerFirst{
+  .Card{
+    font-size: 22px;
     display: flex;
-    flex-direction: column;
+    margin-bottom: 50px;
+    align-items: center; 
   }
-  .Visit{
+  .Names{
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  .visit{
+    text-decoration: none;
     font-size: 15px;
+    color: rgb(112, 7, 89);
+    font-weight: bold;
+  }
+}
+
+@media (min-width: 760px){
+  .Cards{
+    display: flex;
+  }
+  .Min600{
+    display: none;
   }
 }
 
@@ -216,6 +177,7 @@
     width: 90%;
   }
  .ContCarrousel{
+    display: flex;
     width: 88%;
     overflow: hidden;
     margin-left: 50px;
@@ -223,6 +185,9 @@
   .Cards{
     display: flex;
     justify-content: center;
+  }
+  .Min600{
+    display: none;
   }
   .IMG{
     height: 400px;
@@ -252,7 +217,7 @@
     height: 85%;
   }
   .ContCarrousel{
-    width: 90%;
+    width: 70%;
     overflow: hidden;
     margin-left: 50px;
    } 
@@ -260,9 +225,12 @@
     display: flex;
     justify-content: center;
    }
+   .Min600{
+    display: none;
+  }
   .IMG{
     height: 380px;
-    width: 850px;
+    width: 700px;
     color: #000;
   }
   .Line{
@@ -280,6 +248,9 @@
   .Cards{
     display: flex;
     align-items: center;
+  }
+  .Min600{
+    display: none;
   }
   .Container{
     height: 100%;
