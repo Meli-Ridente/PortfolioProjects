@@ -92,11 +92,14 @@
   .Experience{
     background-size: cover;
   }
+  .First{
+    margin-bottom: 8%;
+  }
   .Container{
     display: none;
   }
   .Title1{
-    font-size: 25px;
+    font-size: 20px;
   }
   .Cont{
     margin: 70px 15px;
@@ -119,12 +122,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 10%;
+    margin-top: 3%;
   }
   .Card{
     font-size: 22px;
     display: flex;
-    margin-bottom: 50px;
+    margin-bottom: 10%;
     align-items: center; 
   }
   .Names{
