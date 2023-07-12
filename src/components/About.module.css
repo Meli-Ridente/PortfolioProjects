@@ -113,15 +113,16 @@ ion-icon{
     height: 80%;
   }
   .infor{
-    font-size: 18px;
+    font-size: 15px;
   }
   .AboutMe{
-    font-size: 17px;
+    margin-top: 20px;
+    font-size: 15px;
     text-align: center;
   }
   .LangTitle{
-    font-size: 40px;
-    margin-top: 30px;
+    font-size: 30px;
+    margin-top: 15px;
   }
   .Cont{
     justify-content: center;
@@ -133,10 +134,13 @@ ion-icon{
   }
   .title{
     margin-top: 3%;
-    font-size: 23px;
+    font-size: 18px;
   }
   .date, .pclass{
-    font-size: 17px;
+    font-size: 15px;
+  }
+  .languages{
+    font-size: 30px;
   }
 }
 
@@ -153,7 +157,7 @@ ion-icon{
     font-size: 18px;
   }
   .AboutMe{
-    font-size: 17px;
+    font-size: 18px;
     text-align: center;
   }
   .LangTitle{
@@ -173,13 +177,16 @@ ion-icon{
     font-size: 23px;
   }
   .date, .pclass{
-    font-size: 17px;
+    font-size: 18px;
+  }
+  .languages{
+    font-size: 40px;
   }
 }
 
-@media (min-width: 2000px){
+@media (min-width: 1300px){
   .About{
-  padding: 40px;
+    padding: 40px;
   }
   .Container{
     padding: 10px;
@@ -187,18 +194,25 @@ ion-icon{
     height: 40%;
   }
   .AboutMe{
-    font-size: 20px;
+    font-size: 15px;
     text-align: center;
     margin-top: 15px;
   }
   .infor{
-    font-size: 18px;
+    font-size: 15px;
   }
   .title{
+    font-size: 20px;
     margin-top: 1%;
   }
   .LangTitle{
-    font-size: 40px;
-    margin-top: 30px;
+    font-size: 28px;
+    margin-top: 20px;
+  }
+  .date, .pclass{
+    font-size: 15px;
+  }
+  .languages{
+    font-size: 28px;
   }
 }

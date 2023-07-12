@@ -148,7 +148,7 @@
   }
 }
 
-@media (min-width: 760px){
+@media (min-width: 605px){
   .Min600{
     display: none;
   }
@@ -279,6 +279,7 @@
   .Container{
     height: 100%;
     justify-content: center;
+    margin-bottom: 1;
   }
    .ContCarrousel{
     width: 80%;

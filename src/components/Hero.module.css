@@ -278,12 +278,12 @@ span{
   }
 }
 
-@media (min-width: 760px){
+@media (min-width: 600px) and (max-width: 750px){
   .Card{
-    width: 80%;
+    width: 90%;
   }
   .Navbar{
-    width: 90%;
+    width: 100%;
     justify-content: space-around;
   }
   .Container{
@@ -317,7 +317,7 @@ span{
       width: 0%;
     }
     to {
-      width: 58%;
+      width: 94%;
     }
   }
   .description{
@@ -356,27 +356,210 @@ span{
   }
 }
 
-@media (min-width: 1000px){
+@media (min-width: 750px) and (max-width: 900px){
   .Card{
     justify-content: center;
-    width: 70%;
+    width: 90%;
   }
+  .Navbar{
+    width: 70%;
+    justify-content: space-between;
+  }
+  ul{
+    padding: 0;
+    text-align: justify;
+  }
+  li{
+    margin: 10px;
+  }
+  .list{
+    justify-content: space-around;
+  }
+  .wd{
+    border-right: .10em solid #18BDEC;
+    animation: blink 1s steps(1) ;
+    white-space: nowrap;
+    animation: typing 1s steps(20) 1s 1 normal both, blink 1s steps(1) infinite;
+  }
+  
+  @keyframes blink {
+    40% {
+      border-color: transparent;
+    }
+  }
+  
   @keyframes typing {
     from {
       width: 0%;
     }
     to {
-      width: 40%;
+      width: 78%;
     }
+  }
+  .languages{
+    margin-bottom: 0;
   }
 }
 
-@media (min-width: 1300px){
+@media (min-width: 900px) and (max-width: 1200px){
   .Card{
-    
+    justify-content: space-between;
+    width: 90%;
+  }
+  .Navbar{
+    width: 70%;
+    justify-content: space-between;
+  }
+  ul{
+    padding: 0;
+    text-align: justify;
+  }
+  li{
+    margin: 10px;
+  }
+  .list{
+    justify-content: space-around;
+  }
+  .wd{
+    border-right: .10em solid #18BDEC;
+    animation: blink 1s steps(1) ;
+    white-space: nowrap;
+    animation: typing 1s steps(20) 1s 1 normal both, blink 1s steps(1) infinite;
+  }
+  
+  @keyframes blink {
+    40% {
+      border-color: transparent;
+    }
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 51%;
+    }
+  }
+  .languages{
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1500px){
+  .Card{
     justify-content: center;
-    width: 50%;
+    width: 60%;
+    height: 80%;
+  }
+  .Navbar{
+    width: 70%;
+    height: 20%;
+    justify-content: space-between;
+  }
+  ul{
+    padding: 0;
+    text-align: justify;
+  }
+  li{
+    font-size: 17px;
+    margin: 10px;
+  }
+  .list{
+    justify-content: space-around;
+  }
+  .Name{
+    width: 130px;
+  }
+  .ImagenProfile{
+    height: 200px;
+    width: 200px;
+    margin: 15px;
+  }
+  .Container{
     height: 50%;
+    padding: 0 5% 0 5%;
+  }
+  .DivRedes{
+    height: 70%;
+    align-items: center;
+  }
+  .div{
+    justify-content: center;
+    font-size: 18px;
+    width: 50%;
+  }
+  .description{
+    width: 80%;
+    font-size: 15px;
+  } 
+  .Redes{
+    margin-top: 2px;
+    font-size: 25px;
+  }
+  .Button{
+    margin-top: 30px;
+    width: 150px;
+    height: 40px;
+    font-size: 18px;
+  }
+  .icon{
+    font-size: 30px;
+  }
+  .wd{
+    font-size: 18px;
+    border-right: .10em solid #18BDEC;
+    animation: blink 1s steps(1) ;
+    white-space: nowrap;
+    animation: typing 1s steps(20) 1s 1 normal both, blink 1s steps(1) infinite;
+  }
+  
+  @keyframes blink {
+    40% {
+      border-color: transparent;
+    }
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 45%;
+    }
+  }
+  .languages{
+    margin-top: 0px;
+  }
+}
+
+@media (min-width: 1500px) and (max-width: 1800px){
+  .Card{
+    justify-content: space-between;
+    width: 90%;
+    height: 60%;
+  }
+  .Navbar{
+    width: 70%;
+    justify-content: space-between;
+  }
+  ul{
+    padding: 0;
+    text-align: justify;
+  }
+  li{
+    margin: 10px;
+  }
+  .list{
+    justify-content: space-around;
+  }
+  .Name{
+    width: 130px;
+  }
+  .ImagenProfile{
+    height: 300px;
+    width: 300px;
+    margin: 15px;
   }
   .Container{
     padding: 0 5% 0 5%;
@@ -385,14 +568,36 @@ span{
     font-size: 20px;
   }
   .div{
-    width: 70%;
+    width: 50%;
   }
   .description{
     width: 80%;
-    font-size: 18px;
+    font-size: 19px;
   } 
   .Redes{
-    font-size: 30px;
+    margin-top: 30px;
+    font-size: 35px;
+  }
+  .Button{
+    margin-top: 60px;
+    width: 200px;
+    height: 60px;
+    font-size: 25px;
+  }
+  .icon{
+    font-size: 35px;
+  }
+  .wd{
+    font-size: 19px;
+    border-right: .10em solid #18BDEC;
+    animation: blink 1s steps(1) ;
+    white-space: nowrap;
+    animation: typing 1s steps(20) 1s 1 normal both, blink 1s steps(1) infinite;
+  }
+  @keyframes blink {
+    40% {
+      border-color: transparent;
+    }
   }
   
   @keyframes typing {
@@ -400,31 +605,38 @@ span{
       width: 0%;
     }
     to {
-      width: 40%;
+      width: 30%;
     }
-  }
-  .Button{
-    width: 150px;
-    height: 45px;
-    font-size: 18px;
-  }
-  .icon{
-    font-size: 30px;
   }
 }
 
 @media (min-width: 1800px){
   .Card{
-    padding: 15px;
-    justify-content: center;
+    justify-content: space-between;
     width: 50%;
     height: 60%;
   }
   .Navbar{
-    width: 80%;
+    width: 70%;
+    justify-content: space-between;
+  }
+  ul{
+    padding: 0;
+    text-align: justify;
+  }
+  li{
+    margin: 10px;
+  }
+  .list{
+    justify-content: space-around;
   }
   .Name{
     width: 130px;
+  }
+  .ImagenProfile{
+    height: 300px;
+    width: 300px;
+    margin: 15px;
   }
   .Container{
     padding: 0 5% 0 5%;
@@ -433,22 +645,36 @@ span{
     font-size: 20px;
   }
   .div{
-    width: 70%;
+    width: 50%;
   }
   .description{
     width: 80%;
-    font-size: 18px;
+    font-size: 19px;
   } 
   .Redes{
-    font-size: 30px;
+    margin-top: 30px;
+    font-size: 35px;
   }
   .Button{
-    width: 150px;
-    height: 45px;
-    font-size: 18px;
+    margin-top: 60px;
+    width: 200px;
+    height: 60px;
+    font-size: 25px;
   }
   .icon{
-    font-size: 30px;
+    font-size: 35px;
+  }
+  .wd{
+    border-right: .10em solid #18BDEC;
+    animation: blink 1s steps(1) ;
+    white-space: nowrap;
+    animation: typing 1s steps(20) 1s 1 normal both, blink 1s steps(1) infinite;
+  }
+  
+  @keyframes blink {
+    40% {
+      border-color: transparent;
+    }
   }
   
   @keyframes typing {
@@ -456,7 +682,10 @@ span{
       width: 0%;
     }
     to {
-      width: 24%;
+      width: 35%;
     }
+  }
+  .languages{
+    margin-bottom: 0;
   }
 }
