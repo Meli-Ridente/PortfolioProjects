@@ -448,9 +448,9 @@ span{
 
 @media (min-width: 1200px) and (max-width: 1500px){
   .Card{
-    justify-content: center;
+    justify-content: space-around;
     width: 60%;
-    height: 80%;
+    height: 50%;
   }
   .Navbar{
     width: 70%;
@@ -481,7 +481,7 @@ span{
     padding: 0 5% 0 5%;
   }
   .DivRedes{
-    height: 70%;
+    height: 50%;
     align-items: center;
   }
   .div{

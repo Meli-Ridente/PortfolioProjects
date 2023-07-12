@@ -27,13 +27,6 @@
   flex-direction: column;
 }
 
-.ContCarrousel{
-  /* display: none;  */
-  /* width: 70%;
-  margin-left: 100px; */
-}
-
-
 .First{
   display: flex;
   flex-direction: column;
@@ -50,8 +43,6 @@
 }
 
 .Cards{
-  /* display: flex; */
-  /* visibility: hidden; */
   display: none; 
   /* flex-direction: column; */
   /* align-items: center; */
@@ -115,7 +106,7 @@
     box-shadow: 5px 5px 7px rgb(119, 92, 118);
     display: flex;
     width: 80%;
-    height: 70%;
+    height: 90%;
     flex-direction: column;
     text-align: center;
     justify-content: initial;
@@ -148,12 +139,15 @@
   }
 }
 
-@media (min-width: 605px){
+@media (min-width: 605px) and (max-width:1000px){
   .Min600{
     display: none;
   }
   .Experience{
     background-size: cover;
+  }
+  .First{
+    margin-bottom: 0;
   }
   .Cont{
     padding-top: 150px;
@@ -171,16 +165,18 @@
   .ContCarrousel{
     display: flex;
     width: 95%;
-    margin-left: 30px;
+    margin-left: 15px;
   } 
   .IMG{
     height: 400px;
-    width: 600px;
-    color: #000;
+    width: 450px;
   }
 }
 
-@media (min-width: 1000px){
+@media (min-width: 1001px){
+  .Min600{
+    display: none;
+  }
   .Experience{
     background-size: cover;
   }
@@ -207,9 +203,6 @@
   .Cards{
     display: flex;
     justify-content: center;
-  }
-  .Min600{
-    display: none;
   }
   .IMG{
     height: 400px;
