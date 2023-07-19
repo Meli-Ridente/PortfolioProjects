@@ -450,7 +450,7 @@ span{
   .Card{
     justify-content: space-around;
     width: 60%;
-    height: 50%;
+    height: 70%;
   }
   .Navbar{
     width: 70%;
@@ -481,7 +481,7 @@ span{
     padding: 0 5% 0 5%;
   }
   .DivRedes{
-    height: 50%;
+    height: 65%;
     align-items: center;
   }
   .div{
@@ -494,12 +494,13 @@ span{
     font-size: 15px;
   } 
   .Redes{
-    margin-top: 2px;
+    margin-bottom: 25%;
     font-size: 25px;
   }
   .Button{
     margin-top: 30px;
     width: 150px;
+    
     height: 40px;
     font-size: 18px;
   }
@@ -657,9 +658,9 @@ span{
   }
   .Button{
     margin-top: 60px;
-    width: 200px;
-    height: 60px;
-    font-size: 25px;
+    width: 180px;
+    height: 50px;
+    font-size: 22px;
   }
   .icon{
     font-size: 35px;

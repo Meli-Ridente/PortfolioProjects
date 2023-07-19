@@ -16,15 +16,15 @@ const Experience = () => {
         <div className={styles.Cont}>
           <div className={styles.Container}>
             <div className={styles.First}>
-              <h1 className={styles.Title1}>MY WORK</h1>
+              <h1 className={styles.Title1}>MY WORK</h1> 
               <div className={styles.Line}></div>
             </div>
             <Carousel autoplay ref={carousel} className={styles.ContCarrousel}>
               {experience?.map((item) => {
                 return (
                   <div key={JSON.stringify(item)} className={styles.Cards}> 
+                    <a href={item?.link} className={styles.visit} target='_blank'><p><ShareAltOutlined /> VISIT WEB.</p></a>
                     <img src={item?.img2} className={styles.IMG}/>
-                    <a href='https://www.linkedin.com/in/melissa-ridente/' target='_blank' className={styles.Visit}><p><ShareAltOutlined /> VISIT WEB</p></a> 
                   </div>
                 );
               })}
@@ -39,8 +39,8 @@ const Experience = () => {
               return (
                 <div key={JSON.stringify(item)} className={styles.Card}>
                   <div className={styles.Dentro}> 
-                    <p className={styles.Names}>✓{item.name}</p>
-                    <a href='https://www.linkedin.com/in/melissa-ridente/' className={styles.visit}><p target='_blank'><ShareAltOutlined /> VISIT WEB.</p></a>
+                    <p className={styles.Names}>✓{item?.name}</p>
+                    <a href={item?.link} className={styles.visit} target='_blank'><p><ShareAltOutlined /> VISIT WEB.</p></a>
                   </div>
                 </div>
               );
