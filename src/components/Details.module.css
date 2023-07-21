@@ -54,6 +54,9 @@
   color: rgb(112, 7, 89);
  font-weight: bold;
 }
+.Links{
+  display: flex;
+}
 
 @media (min-width: 601px) and (max-width: 1000px){
   .Cards{

@@ -44,8 +44,11 @@ const Experience = () => {
                 <div key={JSON.stringify(item)} className={styles.Card}>
                   <div className={styles.Dentro}> 
                     <p className={styles.Names}>✓{item?.name}</p>
-                    <a href={item?.link} className={styles.visit} target='_blank'><p><ShareAltOutlined /> VISIT WEB.</p></a>
-                  </div>
+                    <div className={styles.Links}>
+                      <a href={item?.link} className={styles.visit} target='_blank'><p><ShareAltOutlined /> VISIT WEB.</p></a>
+                      <Link to={`/details/${item.id}`} className={styles.visit}><p><ShareAltOutlined /> DETAILS.</p></Link>
+                    </div>
+                 </div>
                 </div>
               );
             })}
