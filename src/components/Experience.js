@@ -5,6 +5,7 @@ import { CV } from '../CV/cv'
 import Header from './Header'
 import { Carousel } from 'antd';
 import {ShareAltOutlined} from '@ant-design/icons'
+import { Link } from 'react-router-dom';
 
 const Experience = () => {
   const carousel = useRef(null);
@@ -23,8 +24,11 @@ const Experience = () => {
               {experience?.map((item) => {
                 return (
                   <div key={JSON.stringify(item)} className={styles.Cards}> 
-                    <a href={item?.link} className={styles.visit} target='_blank'><p><ShareAltOutlined /> VISIT WEB.</p></a>
                     <img src={item?.img2} className={styles.IMG}/>
+                    <div className={styles.Links}>
+                      <a href={item?.link} className={styles.visit} target='_blank'><p><ShareAltOutlined /> VISIT WEB.</p></a>
+                      <Link to={`/details/${item.id}`} className={styles.visit}><p><ShareAltOutlined /> DETAILS.</p></Link>
+                    </div>
                   </div>
                 );
               })}
