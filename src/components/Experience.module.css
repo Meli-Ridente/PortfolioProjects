@@ -114,19 +114,22 @@
   .Card{
     font-size: 22px;
     display: flex;
-    margin-bottom: 10%;
+    margin: 20px;
     align-items: center; 
   }
   
   .Names{
-    margin-bottom: 5px;
     font-weight: bold;
   }
   .visit{
     text-decoration: none;
     font-size: 15px;
     width: 100%;
+    margin-top: 20px;
     color: rgb(112, 7, 89);
+  }
+  .Links{
+    display: flex;
   }
 }
 
@@ -327,6 +330,7 @@
     width: 5%;
   } 
   .visit{
+    margin-top: 30px;
     font-weight: bold;
   }
 }
