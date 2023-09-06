@@ -9,7 +9,7 @@
 
 .Cont{
   width: 50%;
-  height: 80%;
+  height: 60%;
   display: flex;
   justify-content: center;
   padding-top: 140px;
@@ -80,7 +80,7 @@
     background-size: cover;
   }
   .First{
-    margin-bottom: 8%;
+    margin-bottom: 0%;
   }
   .Container{
     display: none;
@@ -89,14 +89,14 @@
     font-size: 18px;
   }
   .Cont{
-    margin: 30px 30px;
-    padding: 10px;
+    margin: 20px 30px;
+    padding: 7px;
     border-radius: 12px;
     background-color: rgba(223, 209, 226, 0.623);
     box-shadow: 5px 5px 7px rgb(119, 92, 118);
     display: flex;
-    width: 80%;
-    height: 80%;
+    width: 90%;
+    height: 90%;
     flex-direction: column;
     text-align: center;
     justify-content: initial;
