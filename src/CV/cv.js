@@ -52,7 +52,7 @@ export const CV = {
       description: 'Made with native Javascript I developed a project with the Pokemon API data. I designed the collectible pokemon cards that each pokemon has, being able to add favorites, filter a search and see the 151 cards.',
       img: 'https://pbs.twimg.com/media/Fw-NRigWIAAwW7c?format=png&name=small',
       img2: 'https://pbs.twimg.com/media/FxT9NvJX0AAx2_G?format=jpg&name=large',
-      link: 'https://corte-ingles1.vercel.app/',
+      link: 'https://poke-api-dun.vercel.app/',
       link2: 'https://github.com/Meli-Ridente/PokeApi'
     },
     {
