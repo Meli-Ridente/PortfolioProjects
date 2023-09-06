@@ -96,7 +96,7 @@
     box-shadow: 5px 5px 7px rgb(119, 92, 118);
     display: flex;
     width: 90%;
-    height: 90%;
+    height: 100%;
     flex-direction: column;
     text-align: center;
     justify-content: initial;
