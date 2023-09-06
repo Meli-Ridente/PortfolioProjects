@@ -9,7 +9,7 @@
 
 .Cont{
   width: 50%;
-  height: 60%;
+  height: 80%;
   display: flex;
   justify-content: center;
   padding-top: 140px;
@@ -102,7 +102,7 @@
     justify-content: initial;
   }
   .Line{
-    width: 30%;
+    width: 25%;
   }
   .Min600{
     display: flex;
