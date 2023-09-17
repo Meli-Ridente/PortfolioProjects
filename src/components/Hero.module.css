@@ -184,6 +184,8 @@ span{
 @media (max-width: 600px){
   .Card{
     width: 90%;
+    height: 90%;
+    padding: 5%;
   }
   .Container{
     flex-direction: column-reverse;
@@ -192,7 +194,7 @@ span{
     padding: 0;
   }
   .ImagenProfile{
-    margin: 30px;
+    margin: 35px 0px;
     width: 200px;
     height: 240px;
   }
