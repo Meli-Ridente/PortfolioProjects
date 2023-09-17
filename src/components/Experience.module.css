@@ -83,6 +83,10 @@
   .First{
     margin-bottom: 0%;
   }
+  .ImagenProfile{
+    height: 200px;
+    width: 220px;
+  }
   .Container{
     display: none;
   }
