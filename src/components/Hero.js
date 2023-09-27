@@ -26,7 +26,8 @@ const Hero = () => {
             <h2 className={styles.wd}>{hero?.wd}</h2>
             <h1 class={styles.title}>Hi, I'm {hero?.name}</h1>
             <h3 className={styles.description}>{hero?.description}</h3>
-            <button className={styles.Button}>Contact Me<ion-icon name="paper-plane-outline"></ion-icon></button>
+            <button className={styles.Button}><a href="mailto:melissaridente3e@gmail.com" className={styles.ahref}>Contact Me</a><ion-icon name="paper-plane-outline"></ion-icon></button>
+            
           </div>
           <img src='https://pbs.twimg.com/media/FvxRldVWAAY2M93?format=jpg&name=large' alt='profile.jpg' className={styles.ImagenProfile}/>
         </div>

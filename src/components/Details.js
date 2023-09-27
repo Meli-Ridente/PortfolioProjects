@@ -25,8 +25,8 @@ const Details = () => {
                       <h1 className={styles.title}>{item.name}</h1>
                       <p className={styles.element}>{item.description}</p>
                       <div className={styles.Links}> 
-                        <a href={item?.link} className={styles.visit} target='_blank'><p><ShareAltOutlined /> GITHUB.</p></a>
-                        <a href={item?.link2} className={styles.visit} target='_blank'><p><ShareAltOutlined /> VISIT WEB.</p></a>
+                        <a href={item?.link2} className={styles.visit} target='_blank'><p><ShareAltOutlined /> GITHUB.</p></a>
+                        <a href={item?.link} className={styles.visit} target='_blank'><p><ShareAltOutlined /> VISIT WEB.</p></a>
                       </div>
                     </div> 
                   
