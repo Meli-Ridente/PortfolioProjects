@@ -1,0 +1,87 @@
+.Projects{
+  background-image: url('https://i.pinimg.com/originals/26/ed/fe/26edfe7476f61c0afa0ad92574065225.gif');
+  background-color: red;
+  background-size: contain;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.Card{
+  overflow-y: scroll;
+  width: 65%;
+  margin: 3%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  text-align: center;
+  border-radius: 12px;
+  box-shadow: 5px 5px 7px rgb(119, 92, 118);
+  color: #03031f;
+  background-color: rgba(223, 209, 226, 0.795);
+}
+
+
+  
+.list{
+  text-decoration: none;
+  color: rgb(84, 83, 85);
+}
+
+.Names{
+  color: rgba(223, 209, 226, 0.795);
+  font-weight: bold;
+  font-size: 20px;
+  text-transform: uppercase;
+  background-color: #2b0226;
+  width: 100%;
+  padding: 10px 0px;
+  border-radius: 20px 20px 0 0px;
+}
+
+.Grid{
+  display: grid;
+  align-items: baseline;
+  grid-template-columns: 400px 400px 400px;
+  justify-items: center;
+}
+
+.Cards{
+  display: flex;
+  background-color: #ffffff82;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+  height: 30vh;
+  justify-content: space-between;
+  width: 80%;
+  margin: 30px 0px;
+}
+
+
+.Navbar{
+  width: 90%;
+  padding: 0px 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Name{
+  width: 130px;
+}
+
+.visit{
+  color: blue;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.visit1{
+  color: rgb(112, 7, 89);
+  text-decoration: none;
+  font-weight: bold;
+}

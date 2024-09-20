@@ -3,7 +3,6 @@ import { useParams, Link } from 'react-router-dom';
 import { CV } from '../CV/cv'
 import {ShareAltOutlined} from '@ant-design/icons'
 import styles from './Details.module.css';
-import Header from './Header';
 
 const Details = () => {
   const { id } = useParams();
@@ -12,7 +11,6 @@ const Details = () => {
   console.log(experience.id, 'a')
  return (
   <>
-    <Header />
     <div className={styles.Details}>
       <div className={styles.Cont}>
         <div className={styles.Cards}>
