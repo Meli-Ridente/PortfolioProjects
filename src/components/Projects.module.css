@@ -9,9 +9,10 @@
 }
 
 .Card{
+  width: 80%;
   overflow-y: scroll;
-  width: 65%;
   margin: 3%;
+  height: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -21,13 +22,6 @@
   box-shadow: 5px 5px 7px rgb(119, 92, 118);
   color: #03031f;
   background-color: rgba(223, 209, 226, 0.795);
-}
-
-
-  
-.list{
-  text-decoration: none;
-  color: rgb(84, 83, 85);
 }
 
 .Names{
@@ -54,25 +48,11 @@
   flex-direction: column;
   align-items: center;
   border-radius: 20px;
-  height: 30vh;
   justify-content: space-between;
   width: 80%;
   margin: 30px 0px;
 }
 
-
-.Navbar{
-  width: 90%;
-  padding: 0px 50px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.Name{
-  width: 130px;
-}
 
 .visit{
   color: blue;
@@ -84,4 +64,12 @@
   color: rgb(112, 7, 89);
   text-decoration: none;
   font-weight: bold;
+}
+
+.IMG{
+  width:200px;
+}
+
+@media (min-width: 1500px) and (max-width: 1800px){
+ 
 }

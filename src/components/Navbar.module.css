@@ -1,0 +1,46 @@
+
+.Navbar{
+  width: 90%;
+  justify-content: space-between;
+  padding: 0px 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.list{
+  text-decoration: none;
+  color: rgb(84, 83, 85);
+}
+
+ul{
+  text-align: justify;
+  display: flex;
+  padding: 0;
+  list-style: none;
+}
+
+li{
+ 
+  font-weight: bold;
+}
+
+
+.Name{
+  width: 100px;
+}
+
+
+.list{ 
+  font-size: 18px;
+  font-weight: 600;
+  margin: 10px;
+  text-decoration: none;
+  color: #000;
+}
+
+.list:hover{
+  color:rgb(134, 55, 108);
+  zoom: 1.05;
+  font-weight: 700;
+}

@@ -10,7 +10,7 @@
 
 
 .Container{
-  width: 65%;
+  width: 80%;
   margin: 3%;
   display: flex;
   flex-direction: column;
@@ -33,22 +33,6 @@
   margin: 20px;
 }
 
-.list{
-  text-decoration: none;
-  color: rgb(84, 83, 85);
-}
-
-.Navbar{
-  width: 90%;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.Name{
-  width: 130px;
-}
 
 .Cont{
   width: 50%;
@@ -214,7 +198,6 @@
   .Container{
     margin-bottom: 1;
     justify-content: center;
-    width: 90%;
     background-color: rgba(223, 209, 226, 0.795);
   }
   .Title1{
@@ -261,9 +244,7 @@
   }
   .Container{
     margin-bottom: 1;
-    padding-top: 0px;
     background-color: rgba(223, 209, 226, 0.795);
-    width: 100%;
   }
   .ContCarrousel{
     width: 100%;

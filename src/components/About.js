@@ -2,21 +2,14 @@ import React from 'react';
 import styles from './About.module.css';
 import { CV } from '../CV/cv'
 import { Link } from 'react-router-dom';
+import Navbar from './Navbar';
 
 const About = () => {
   const {education, languages, hero, habilities} = CV;
   return (
     <div className={styles.About}>
       <div className={styles.Container}>
-        <div className={styles.Navbar}>
-          <img src='https://pbs.twimg.com/media/FvxPm6tWIAEZf2D?format=png&name=small' alt='name.png' className={styles.Name}/>
-          <ul>
-            <li><Link to='/' className={styles.list}>HOME</Link></li>
-            <li><Link to='/about' className={styles.list}>ABOUT ME</Link></li>
-            <li><Link to='/portfolio' className={styles.list}>EXPERIENCE</Link></li>
-            <li><Link to='/projects' className={styles.list}>PROJECTS</Link></li>
-          </ul>
-        </div>
+        <Navbar />
         <div className={styles.First}>
           <p className={styles.infor}><ion-icon name="earth-outline"></ion-icon>{hero.city}</p>
           <p className={styles.infor}><ion-icon name="mail-outline"></ion-icon>{hero.email}</p>

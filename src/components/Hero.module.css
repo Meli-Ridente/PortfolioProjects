@@ -9,10 +9,9 @@
 }
 
 .Card {
+  width: 80%;
   display: flex;
   flex-direction: column;
-  margin: 5%;
-  padding: 2%;
   align-items: center;
   overflow: hidden;
   text-align: center;
@@ -27,43 +26,11 @@
   flex-direction: row;
 }
 
-.Navbar{
-  width: 90%;
-  height: 5%;
-  justify-content: space-between;
-  padding: 0px 50px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-.list{
-  text-decoration: none;
-  color: rgb(84, 83, 85);
-}
-
-ul{
-  text-align: justify;
-  display: flex;
-  padding: 0;
-  list-style: none;
-}
-
-li{
-  font-size: 18px;
-  font-weight: bold;
-}
-
-.Name{
-  width: 100px;
-}
-
 .Container{
   display: flex;
   align-items: center;
   flex-direction: row;
   justify-content: space-between;
-  padding: 0 15% 5% 8%;
 }
 
 h1{
@@ -100,21 +67,22 @@ h1{
 .description{
   width: 80%;
   font-size: 16px;
-  color: rgb(84, 83, 85);
+  color: rgb(98, 92, 105);
   text-align: justify;
+  font-weight: 600;
 }
 
 .Button{
   margin-top: 30px;
-  width: 190px;
-  height: 90px;
+  width: 150px;
+  height: 40px;
   border-radius: 10px;
   font-size: 20px;
-  color: rgba(44, 34, 34, 0.39);
+  color: #000;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  background-color: #2b0226;
+  background-color: #020202;
 }
 
 .ahref{
@@ -174,17 +142,9 @@ a:hover{
   font-size: 30px;
   margin-top: 140px;
   color: rgb(112, 7, 89);
+  padding: 1%;
 }
 
-.list{
-  text-decoration: none;
-  color: rgb(84, 83, 85);
-}
-
-.list:hover{
-  color:rgb(134, 55, 108);
-  zoom: 1.05;
-}
 
 span{
   margin-left: 13px;
@@ -202,11 +162,6 @@ span{
 /*  MEDIA QUERYS */
 
 @media (max-width: 600px){
-  .Card{
-    width: 90%;
-    height: 90%;
-    padding: 5%;
-  }
   .Container{
     flex-direction: column-reverse;
     align-items: start;
@@ -217,11 +172,6 @@ span{
     margin: 35px 0px;
     width: 200px;
     height: 240px;
-  }
-  .Navbar{
-    flex-direction: row-reverse;
-    width: 90%;
-    justify-content: space-between;
   }
   .wd{
     border-right: .10em solid #18BDEC;
@@ -244,16 +194,6 @@ span{
       width: 57%;
     }
   }
-  ul{
-    flex-direction: column;
-    margin-right: 0px;
-  } 
-  .list{
-    align-items: center;
-    font-size: 13px; 
-    margin-left: 0px;
-    text-align: justify;
- }
   .div{
     text-align:left;
     width: 100%;
@@ -268,15 +208,10 @@ span{
     font-weight: normal;
     text-align: justify;
   }
-  .Name{
-    height: 70px;
-    width: 90px;
-  }
   .a{
     font-size: 25px;
   }
   .Redes{
-    margin-top: 30px;
     display: flex;
     justify-content: center;
     font-size: 30px;
@@ -286,10 +221,7 @@ span{
     font-size: 25px;
   }
   .Button{
-    height: 40px;
-    width: 120px;
     font-size: 13px;
-    margin-top: 10px;
   }
   .languages{
     margin-top: 25px;
@@ -297,18 +229,11 @@ span{
 }
 
 @media (min-width: 600px) and (max-width: 750px){
-  .Card{
+  /*.Card{
     width: 90%;
-  }
-  .Navbar{
-    width: 100%;
-    justify-content: space-around;
-  }
+  }*/
   .Container{
     padding: 0 5% 0 5%;
-  }
-  .Name{
-    width: 120px;
   }
   .ImagenProfile{
     width: 200px;
@@ -344,30 +269,11 @@ span{
     
     font-weight: 500;
   }
-  ul{
-    padding: 0;
-    text-align: justify;
-  }
-  li{
-    margin: 5px;
-  }
-  .list{
-    justify-content: space-around;
-  }
-  .Button{
-    margin-top: 30px;
-  }.icon{
+  .icon{
     font-size: 30px;
   }
   .Redes{
     font-size: 30px;
-    margin-top: 60px;
-  }
-  .Button{
-    margin-top: 60px;
-    font-size: 15px;
-    width: 120px;
-    height: 40px;
   }
   .languages{
     margin-top: 30px;
@@ -375,24 +281,10 @@ span{
 }
 
 @media (min-width: 750px) and (max-width: 900px){
-  .Card{
+  /*.Card{
     justify-content: center;
     width: 90%;
-  }
-  .Navbar{
-    width: 70%;
-    justify-content: space-between;
-  }
-  ul{
-    padding: 0;
-    text-align: justify;
-  }
-  li{
-    margin: 10px;
-  }
-  .list{
-    justify-content: space-around;
-  }
+  }*/
   .wd{
     border-right: .10em solid #18BDEC;
     animation: blink 1s steps(1) ;
@@ -420,24 +312,10 @@ span{
 }
 
 @media (min-width: 900px) and (max-width: 1200px){
-  .Card{
+  /*.Card{
     justify-content: space-between;
     width: 100%;
-  }
-  .Navbar{
-    width: 90%;
-    justify-content: space-between;
-  }
-  ul{
-    padding: 0;
-    text-align: justify;
-  }
-  li{
-    margin: 10px;
-  }
-  .list{
-    justify-content: space-around;
-  }
+  }*/
   .wd{
     border-right: .10em solid #18BDEC;
     animation: blink 1s steps(1) ;
@@ -466,30 +344,11 @@ span{
 }
 
 @media (min-width: 1200px) and (max-width: 1500px){
-  .Card{
+  /*.Card{
     justify-content: space-around;
     width: 60%;
     height: 70%;
-  }
-  .Navbar{
-    width: 70%;
-    height: 20%;
-    justify-content: space-between;
-  }
-  ul{
-    padding: 0;
-    text-align: justify;
-  }
-  li{
-    font-size: 17px;
-    margin: 10px;
-  }
-  .list{
-    justify-content: space-around;
-  }
-  .Name{
-    width: 130px;
-  }
+  }*/
   .ImagenProfile{
     height: 200px;
     width: 200px;
@@ -499,10 +358,6 @@ span{
     height: 50%;
     padding: 0 5% 0 5%;
   }
-  .DivRedes{
-    height: 65%;
-    align-items: center;
-  }
   .div{
     justify-content: center;
     font-size: 18px;
@@ -510,17 +365,13 @@ span{
   }
   .description{
     width: 80%;
-    font-size: 23px;
+    font-size: 20px;
   } 
   .Redes{
     margin-bottom: 25%;
     font-size: 25px;
   }
   .Button{
-    margin-top: 30px;
-    width: 100px;
-    
-    height: 40px;
     font-size: 18px;
   }
   .icon{
@@ -554,36 +405,18 @@ span{
 }
 
 @media (min-width: 1500px) and (max-width: 1800px){
-  .Card{
+  /*.Card{
     justify-content: space-between;
     width: 70%;
     height: 80%;
-  }
-  .Navbar{
-    width: 90%;
-    height: 5%;
-    justify-content: space-between;
-  }
-  ul{
-    padding: 0;
-    text-align: justify;
-  }
-  li{
-    margin: 10px;
-  }
-  .list{
-    justify-content: space-around;
-  }
-  .Name{
-    width: 130px;
-  }
+  }*/
   .ImagenProfile{
     height: 300px;
     width: 300px;
     margin: 15px;
   }
   .Container{
-    padding: 10% 5% 0 5%;
+    padding: 2% 5% 0 5%;
   }
   li{
     font-size: 20px;
@@ -596,13 +429,9 @@ span{
     font-size: 19px;
   } 
   .Redes{
-    margin-top: 20%;
     font-size: 40px;
   }
   .Button{
-    margin-top: 60px;
-    width: 150px;
-    height: 60px;
     font-size: 18px;
   }
   .icon{
@@ -632,29 +461,11 @@ span{
 }
 
 @media (min-width: 1800px){
-  .Card{
+  /*.Card{
     justify-content: space-between;
     width: 60%;
     height: 80%;
-  }
-  .Navbar{
-    width: 90%;
-    height: 5%;
-    justify-content: space-between;
-  }
-  ul{
-    padding: 0;
-    text-align: justify;
-  }
-  li{
-    margin: 10px;
-  }
-  .list{
-    justify-content: space-around;
-  }
-  .Name{
-    width: 130px;
-  }
+  }*/
   .ImagenProfile{
     height: 300px;
     width: 300px;
@@ -662,9 +473,6 @@ span{
   }
   .Container{
     padding: 0 5% 0 5%;
-  }
-  li{
-    font-size: 20px;
   }
   .div{
     width: 50%;
@@ -674,13 +482,9 @@ span{
     font-size: 19px;
   } 
   .Redes{
-    margin-top: 30px;
     font-size: 35px;
   }
   .Button{
-    margin-top: 60px;
-    width: 150px;
-    height: 50px;
     font-size: 18px;
   }
   .icon{
