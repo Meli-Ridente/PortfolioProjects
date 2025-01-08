@@ -44,3 +44,18 @@ li{
   zoom: 1.05;
   font-weight: 700;
 }
+@media (max-width: 600px){
+  .Navbar{
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+  }
+  ul{
+    display: flex;
+    flex-direction: column;
+  }
+  .list{
+    font-size: 15px;
+  }
+}
